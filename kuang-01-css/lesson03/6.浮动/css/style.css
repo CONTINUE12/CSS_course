@@ -1,0 +1,18 @@
+#father{
+    width: 1000px;
+/*    height: 70px;*/
+    border: 1px solid black;
+}
+#father:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.layer01{
+    float: right;
+}
+.clear{
+    clear: both;
+    margin: 0;
+    padding: 0;
+}

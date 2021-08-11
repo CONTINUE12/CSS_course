@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!--id选择器，不符合就近原则，id必须保证全局唯一
+    优先级：id选择器>class选择器>标签选择器
+    -->
+    <style>
+        #qinjiang{
+            color: red;
+        }
+        .kuangshen{
+            color: green;
+        }
+        h1{
+            color: #46b8b8;
+        }
+    </style>
+
+</head>
+<body>
+
+<h1 id="qinjiang" class="kuangshen">标题1</h1>
+<h1>标题2</h1>
+<h1>标题3</h1>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!--绝对定位：
+    父级元素没有开启定位的前提下，根据浏览器位置进行定位
+    原来的位置不保留
+    -->
+    <style>
+        body{
+            padding: 10px;
+        }
+        div{
+            margin: 10px;
+            padding: 5px;
+            font-size: 12px;
+            line-height: 25px;
+            position: relative;
+        }
+        #father{
+            border: 1px solid #666;
+
+        }
+        #first{
+            background-color: red;
+            border: 1px dashed #666;
+            position: absolute;
+            left: 20px;
+        }
+        #second{
+            background-color: blue;
+            border: 1px dashed #666;
+        }
+        #third{
+            background-color: blue;
+            border: 1px dashed #666;
+            position: absolute; /*绝对定位*/
+            right: 20px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="father">
+    <div id="first">第一个盒子</div>
+    <div id="second">第二个盒子</div>
+    <div id="third">第三个盒子</div>
+</div>
+
+</body>
+</html>

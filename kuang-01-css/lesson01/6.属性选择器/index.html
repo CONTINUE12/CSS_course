@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <style>
+        .demo a{
+            float: left;
+            display: block;
+            height: 50px;
+            width: 50px;
+            border-radius: 10px;
+            background: green;
+            text-align: center;
+            color: gainsboro;
+            text-decoration: none;
+            margin-right: 5px;
+            font: bold 20px/50px Arial;
+        }
+
+        /*属性选择器格式：a[属性名 = 属性值]{} (正则表达式)
+        = 绝对等于
+        *= 包含这个元素
+        ^= 以这个开头
+        $= 以这个结尾*/
+        a[class $= "last"]{
+            background: red;
+        }
+    </style>
+
+
+</head>
+<body>
+
+<p class="demo">
+    <a href="https://www.baidu.com" class="link">1</a>
+    <a href="https://www.baidu.com" class="link last">1</a>
+
+</p>
+
+</body>
+</html>

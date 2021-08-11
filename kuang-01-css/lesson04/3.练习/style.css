@@ -1,0 +1,41 @@
+/*大边框设置*/
+#father{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid red;
+}
+/*五个小方块样式设置*/
+a{
+    height: 100px;
+    width: 100px;
+    text-decoration: none;
+    background: hotpink;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    display: block;
+}
+/*鼠标悬停变色*/
+a:hover{
+    background: blue;
+}
+/*利用相对定位移动位置*/
+.block2{
+    position: relative;
+    left: 200px;
+    top: -100px
+}
+.block3{
+    position: relative;
+    left: 200px
+}
+.block4{
+    position: relative;
+    bottom: 100px
+}
+.block5{
+    position: relative;
+    bottom: 300px;
+    left: 100px
+}
