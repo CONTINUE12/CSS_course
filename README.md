@@ -1,23 +1,17 @@
 # CSS_course
 
 #### 介绍
+
 Java技术栈之CSS3学习
 
-#### 软件架构
-软件架构说明
+#### 概述
 
+层叠样式表（英语：Cascading Style Sheets，缩写：CSS）是一种用来为结构化文档（如HTML文档或XML应用）添加样式（字体、间距和颜色等）的计算机语言。
 
-#### 安装教程
+#### 思维导图
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+![images](https://github.com/CONTINUE12/CSS_course/blob/master/3.jpg)
 
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
 #### 参与贡献
 
@@ -25,7 +19,6 @@ Java技术栈之CSS3学习
 2.  新建 Feat_xxx 分支
 3.  提交代码
 4.  新建 Pull Request
-
 
 #### 特技
 
